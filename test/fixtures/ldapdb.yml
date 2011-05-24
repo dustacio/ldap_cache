@@ -1,0 +1,56 @@
+# Only limited attributes are suppored, if you
+# put something that isn't in schema/core.schema in here
+# send search results will not return false instead of a result
+# set
+---
+cn=dusty.jones,ou=users,dc=example,dc=com:
+  cn:
+  - dusty.jones
+  createTimestamp:
+  - 201101131636Z
+  creatorsName:
+  - ""
+  sn:
+  - Jones
+  mail:
+  - dusty.jones@example.com
+  userPassword:
+  - secret0
+  displayName:
+  - Dusty Jones
+  objectClass:
+  - top
+  - person
+  - organizationalPerson
+cn=jason.gignac,ou=users,dc=example,dc=com:
+  cn:
+  - jason.gignac
+  createTimestamp:
+  - 201101131636Z
+  creatorsName:
+  - ""
+  sn:
+  - Gignac
+  mail:
+  - jason.gignac@example.com
+  userpassword:
+  - secret1
+cn=nika.miller,ou=users,dc=example,dc=com:
+  cn:
+  - nika.miller
+  createTimestamp:
+  - 201101131636Z
+  creatorsName:
+  - ""
+  sn:
+  - Miller
+  mail:
+  - nika.miller@example.com
+  userpassword:
+  - secret2
+cn=cloudsites,dc=example,dc=com:
+  cn:
+  - cloudsites
+  userpassword:
+  - secret
+

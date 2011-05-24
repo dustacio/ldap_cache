@@ -1,0 +1,38 @@
+PATH
+  remote: .
+  specs:
+    ldap_cache (0.0.9)
+      activesupport (~> 3.0.3)
+      i18n (~> 0.5.0)
+      memcached
+      net-ldap (~> 0.1.1)
+      ruby-ldapserver (~> 0.3.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activesupport (3.0.7)
+    diff-lcs (1.1.2)
+    hoe (2.9.4)
+      rake (>= 0.8.7)
+    i18n (0.5.0)
+    memcached (1.2.7)
+    net-ldap (0.1.1)
+    rake (0.9.0)
+    rspec (2.6.0)
+      rspec-core (~> 2.6.0)
+      rspec-expectations (~> 2.6.0)
+      rspec-mocks (~> 2.6.0)
+    rspec-core (2.6.3)
+    rspec-expectations (2.6.0)
+      diff-lcs (~> 1.1.2)
+    rspec-mocks (2.6.0)
+    ruby-ldapserver (0.3.1)
+      hoe (>= 1.4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ldap_cache!
+  rspec

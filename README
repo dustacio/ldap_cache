@@ -1,0 +1,7 @@
+A caching proxy to another ldap server
+Only searches, ie READ-ONLY, are supported
+Memcache is used for a caching layer
+
+Run memcached on port 11211 before running specs
+
+The cucumber features requires accesss to a real LDAP server.
